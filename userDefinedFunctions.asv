@@ -1,0 +1,4 @@
+t = MyOutput.time;
+pos = MyOutput.values(:,1);
+
+figure, plot(t,pos,t,cumtrapz()
